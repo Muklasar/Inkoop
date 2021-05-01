@@ -20,15 +20,28 @@ def match(icity, icor, iopration, data):
 
 def minmax(value, iopration):
     if iopration == "highest":
-        return max(value)
+        return highest(value)
     elif iopration == "lowest":
-        return min(value)
+        return lowest(value)
     elif iopration == "average":
         average = sum([int(i) for i in value]) // len(value)
         return average
     else:
         print("invalid")
 
+def highest(value):
+    myMax = value[0]
+    for num in value:
+        if num > myMax:
+            myMax = num 
+    return myMax
+
+def lowest(value):
+    myMax = value[0]
+    for num in value:
+        if num < myMax:
+            myMax = num 
+    return myMax
 
 result = match(icity, icor, iopration, data)
 print(result)
