@@ -1,0 +1,38 @@
+[
+    {
+        "city": "Karnataka",
+        "cost" : "200",
+        "rating" : "3"
+
+    },
+    {
+        "city": "Karnataka",
+        "cost" : "700",
+        "rating" : "5"
+
+    },
+    {
+        "city": "Maharashtra",
+        "cost" : "500",
+        "rating" : "4"
+
+    },
+    {
+        "city": "Maharashtra",
+        "cost" : "600",
+        "rating" : "3"
+
+    },
+    {
+        "city": "India",
+        "cost" : "500",
+        "rating" : "4"
+
+    },
+    {
+        "city": "India",
+        "cost" : "900",
+        "rating" : "7"
+
+    }
+]
